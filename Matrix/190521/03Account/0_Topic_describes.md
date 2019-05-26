@@ -13,30 +13,32 @@ Account是一个银行账户的实体模型，它有一个属性balance表示当前的存款余额，有一个属
 class Account
 {
 private:
-         string name;
-         double balance;
+    string name;
+    double balance;
+
 public:
-         Account();
-         Account(string,double);
-         void deposit(double);
-         bool withdraw(double);
-         string getName();
-         double getBalance();
+    Account();
+    Account(string, double);
+    void deposit(double);
+    bool withdraw(double);
+    string getName();
+    double getBalance();
 };
- 
+
 class AccountManager
 {
 private:
-         Account accountlist[100];
-         int accountNumber;
+    Account accountlist[100];
+    int accountNumber;
+
 public:
-         AccountManager();
-         void open(string);
-         void close(string);
-         void depositByName(string,double);
-         bool withdrawByName(string,double);
-         double getBalanceByName(string);
-         Account getAccountByName(string);
+    AccountManager();
+    void open(string);
+    void close(string);
+    void depositByName(string, double);
+    bool withdrawByName(string, double);
+    double getBalanceByName(string);
+    Account getAccountByName(string);
 };
 ```
 
