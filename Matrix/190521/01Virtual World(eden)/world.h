@@ -6,38 +6,45 @@
 #include <map>
 #include <algorithm>
 
-struct person {
+struct person
+{
     static int num;
     const int id;
-    person() :id(num) {
+    person() : id(num)
+    {
         num++;
     }
 };
 
 int person::num = 0;
 
-
-
-class group {
+class group
+{
 private:
     int type;
-    std::map<int, std::set<int> > member;
+    std::map<int, std::set<int>> member;
+
 public:
-    group(int _type) :type(_type) {}
-    
-    void displayGroup() {
-        std::map<int, std::set<int> >::iterator it;
-        for(it = member.begin(); it != member.end(); it++) {
+    group(int _type) : type(_type) {}
+
+    void displayGroup()
+    {
+        std::map<int, std::set<int>>::iterator it;
+        for (it = member.begin(); it != member.end(); it++)
+        {
             std::cout << "Person_" << it->first << ":";
             std::set<int>::iterator init = it->second.begin();
-            if(init != it->second.end()) {
+            if (init != it->second.end())
+            {
                 std::cout << " " << *init;
                 init++;
             }
-            else {
+            else
+            {
                 std::cout << " null";
             }
-            while(init != it->second.end()) {
+            while (init != it->second.end())
+            {
                 std::cout << ", " << *init;
                 init++;
             }
@@ -45,35 +52,41 @@ public:
         }
     }
 
-    bool addMember(person &p) {
+    bool addMember(person &p)
+    {
         std::set<int> pset;
-        if(type) {
-            std::map<int, std::set<int> >::iterator it;
-            for(it = member.begin(); it != member.end(); it++) {
+        if (type)
+        {
+            std::map<int, std::set<int>>::iterator it;
+            for (it = member.begin(); it != member.end(); it++)
+            {
                 pset.insert(it->first);
                 it->second.insert(p.id);
             }
         }
         //member[p.id] = *p;
-        std::pair<std::map<int, std::set<int> >::iterator, bool> ret = 
-            member.insert(std::map<int, std::set<int> >::value_type(p.id, pset));
+        std::pair<std::map<int, std::set<int>>::iterator, bool> ret =
+            member.insert(std::map<int, std::set<int>>::value_type(p.id, pset));
         return ret.second;
     }
 
-    bool deleteMember(person &p) {
+    bool deleteMember(person &p)
+    {
         return member.erase(p.id);
     }
 
-    bool makeFriend(person &p1, person &p2) {
-        if(member[p1.id].find(p2.id) != member[p1.id].end())
+    bool makeFriend(person &p1, person &p2)
+    {
+        if (member[p1.id].find(p2.id) != member[p1.id].end())
             return false;
         member[p1.id].insert(p2.id);
         member[p2.id].insert(p1.id);
         return true;
     }
 
-    bool breakRelation(person &p1, person &p2) {
-        if(member[p1.id].find(p2.id) == member[p1.id].end())
+    bool breakRelation(person &p1, person &p2)
+    {
+        if (member[p1.id].find(p2.id) == member[p1.id].end())
             return false;
         member[p1.id].erase(p2.id);
         member[p2.id].erase(p1.id);
