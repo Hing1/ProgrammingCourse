@@ -1,31 +1,24 @@
 #include "Account.hpp"
 
+using namespace std;
+
 Account::Account()
 {
-    name = "NULL";
+    name = "";
     balance = 0;
 }
-Account::Account(string _name, double _balance)
-    : name(_name), balance(_balance) {}
-void Account::deposit(double money)
+Account::Account(string n, double b)
 {
-    balance += money;
+    name = n;
+    balance = b;
 }
-bool Account::withdraw(double money)
+void Account::deposit(double n) { balance += n; }
+bool Account::withdraw(double n)
 {
-    if (balance - money >= 0)
-    {
-        balance -= money;
-        return true;
-    }
-    else
+    if (balance < n)
         return false;
+    balance = balance - n;
+    return true;
 }
-string Account::getName() const
-{
-    return name;
-}
-double Account::getBalance() const
-{
-    return balance;
-}
+string Account::getName() const { return name; }
+double Account::getBalance() const { return balance; }
