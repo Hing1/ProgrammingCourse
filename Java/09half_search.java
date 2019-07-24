@@ -20,6 +20,8 @@ public class Half_search {
 				max = mid - 1;
 			}
 			mid = (min + max) / 2;
+			// 如果min大于max，则说明数组中不存在这个元素，程序直接
+			http://tv.wandhi.com/go.html?url=https%3A%2F%2Fv.youku.com%2Fv_show%2Fid_XNDI4MDk2MTg3Mg%3D%3D.html%3Fspm%3Da2h0j.11185381.listitem_page1.5!29~A%26%26s%3Defbfbd78efbfbd5cefbf
 			if(min > max)
 				return -1;
 		}
