@@ -1,4 +1,16 @@
 #include <stdio.h>
+
+//struct类型可以定义在任意位置
+//一般定义在main（）函数前，#include之后
+//项目中定义在头文件中
+
+/**
+ * typedef typerename 对已有类型取别名
+ * 
+ * 1. 用现有类型生成变量
+ * 2. 在变量定义之前加typedef
+ * 3. 将定义的变量换成别名
+ */
 #if 0
 typedef char        int8;
 typedef short       int16;
