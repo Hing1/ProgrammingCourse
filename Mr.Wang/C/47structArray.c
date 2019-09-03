@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 //结构体支持赋值
+//等位拷贝
 
 typedef struct structArray
 {
