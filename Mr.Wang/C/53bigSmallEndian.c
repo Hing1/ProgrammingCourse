@@ -17,5 +17,12 @@ int main() {
         printf("Big endian\n");
     else //uu.ch == 0x78
         printf("Small endian\n");
+
+    int data = 0x12345678;
+    if(*(char*)&data == 0x12)
+        printf("Big endian\n");
+    else //uu.ch == 0x78
+        printf("Small endian\n");
+
     return 0;
 }
