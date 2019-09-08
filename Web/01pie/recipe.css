@@ -23,18 +23,22 @@ h2 { /*文章中的第二类标题，即其他所有标题*/
     color: #404040;                                      /*文字颜色*/
     font-size: 11pt;                                       /*文字大小*/
     font-family: Georgia, 'Times New Roman', Times, serif; /*字体*/
-}/*<p>和<ol>的样式在此处都已设置完成*/
+} /*<p>和<ol>的样式在此处都已设置完成*/
 
 ul{ /*文章中的INGREDIENTS处设置*/
     list-style-image: url(https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/pie_icon.gif);/*"额外要求"中的Pie bullet设置*/
 }
 
-blockquote { /*此处设置USER COMMENTS下的评论*/
+blockquote {                 /*此处设置USER COMMENTS下的评论*/
     background: #FFFFC8;   /*设置评论文字后特殊的黄色*/
     font-style: italic;      /*设置评论文字为斜体*/
 }
 
-a { /*此处设置LINKS下的链接*/
+a {                     /*此处设置LINKS下的链接*/
     color: #A4A400;   /*<a>的颜色独特，需要单独列出*/
-    border:none;        /*"额外要求"中的<a>的图片无边框Borderless image links*/
+    border: 0;          /*"额外要求"中的<a>的图片无边框Borderless image links*/
+}
+
+body { /*额外要求中的Background*/
+    background: url(images/silverware.jpg);
 }
