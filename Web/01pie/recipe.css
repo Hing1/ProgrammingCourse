@@ -1,0 +1,40 @@
+/*The Chinese characters in this document are encoded by "GB2312" */
+
+h1 { /*文章的第一类标题，即第一个大标题*/
+    color: #A4A400;                                  /*文字颜色*/
+    font-size: 22pt;                                   /*文字大小*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  /*字体*/
+    background-color: #F0F0F0;                       /*背景颜色*/
+    text-align: center;                                /*居中*/
+    text-decoration: underline;                        /*下划线*/
+    letter-spacing: 0.2em;                             /*额外要求中的Wide headings*/
+}
+
+h2 { /*文章中的第二类标题，即其他所有标题*/
+    color: #A4A400;                 /*文字颜色*/
+    font-size: 18pt;                  /*文字大小*/
+    background-color: #F0F0F0;      /*背景颜色*/
+    text-align: left;                 /*居左*/
+    text-decoration: underline;       /*下划线*/
+    letter-spacing: 0.2em;            /*额外要求中的Wide headings*/
+}
+
+* { /*因为除标题文字外，文章中文字的”大小“、"颜色"和“字体”都相同，所有在此统一设置*/
+    color: #404040;                                      /*文字颜色*/
+    font-size: 11pt;                                       /*文字大小*/
+    font-family: Georgia, 'Times New Roman', Times, serif; /*字体*/
+}/*<p>和<ol>的样式在此处都已设置完成*/
+
+ul{ /*文章中的INGREDIENTS处设置*/
+    list-style-image: url(https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/pie_icon.gif);/*"额外要求"中的Pie bullet设置*/
+}
+
+blockquote { /*此处设置USER COMMENTS下的评论*/
+    background: #FFFFC8;   /*设置评论文字后特殊的黄色*/
+    font-style: italic;      /*设置评论文字为斜体*/
+}
+
+a { /*此处设置LINKS下的链接*/
+    color: #A4A400;   /*<a>的颜色独特，需要单独列出*/
+    border:none;        /*"额外要求"中的<a>的图片无边框Borderless image links*/
+}
