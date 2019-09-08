@@ -1,44 +1,47 @@
-/*The Chinese characters in this document are encoded by "GB2312" */
-
-h1 { /*ÎÄÕÂµÄµÚÒ»Àà±êÌâ£¬¼´µÚÒ»¸ö´ó±êÌâ*/
-    color: #A4A400;                                  /*ÎÄ×ÖÑÕÉ«*/
-    font-size: 22pt;                                   /*ÎÄ×Ö´óĞ¡*/
-    font-family: Verdana, Geneva, Tahoma, sans-serif;  /*×ÖÌå*/
-    background-color: #F0F0F0;                       /*±³¾°ÑÕÉ«*/
-    text-align: center;                                /*¾ÓÖĞ*/
-    text-decoration: underline;                        /*ÏÂ»®Ïß*/
-    letter-spacing: 0.2em;                             /*¶îÍâÒªÇóÖĞµÄWide headings*/
+/*
+The Chinese characters in this document are encoded by "utf-8" 
+å§“åï¼šéƒ­é”¦
+å­¦å·ï¼š18342021
+*/
+h1, h2{                                                    /*æ–‡å­—æ‰€æœ‰æ ‡é¢˜*/
+    color: #A4A400;                                      /*æ–‡å­—é¢œè‰²*/
+    background-color: #F0F0F0;                           /*èƒŒæ™¯é¢œè‰²*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;      /*å­—ä½“*/
+    text-decoration: underline;                            /*ä¸‹åˆ’çº¿*/
+    letter-spacing: 0.2em;                                 /*é¢å¤–è¦æ±‚ä¸­çš„Wide headings*/
+}
+h1 {                                                       /*æ–‡ç« çš„ç¬¬ä¸€ç±»æ ‡é¢˜ï¼Œå³ç¬¬ä¸€ä¸ªå¤§æ ‡é¢˜*/
+    text-align: center;                                    /*å±…ä¸­*/
+    font-size: 22pt;                                       /*æ–‡å­—å¤§å°*/
+}
+h2 {                                                       /*æ–‡ç« ä¸­çš„ç¬¬äºŒç±»æ ‡é¢˜ï¼Œå³å…¶ä»–æ‰€æœ‰æ ‡é¢˜*/
+    text-align: left;                                      /*å±…å·¦*/
+    font-size: 18pt;                                       /*æ–‡å­—å¤§å°*/
 }
 
-h2 { /*ÎÄÕÂÖĞµÄµÚ¶şÀà±êÌâ£¬¼´ÆäËûËùÓĞ±êÌâ*/
-    color: #A4A400;                 /*ÎÄ×ÖÑÕÉ«*/
-    font-size: 18pt;                  /*ÎÄ×Ö´óĞ¡*/
-    background-color: #F0F0F0;      /*±³¾°ÑÕÉ«*/
-    text-align: left;                 /*¾Ó×ó*/
-    text-decoration: underline;       /*ÏÂ»®Ïß*/
-    letter-spacing: 0.2em;            /*¶îÍâÒªÇóÖĞµÄWide headings*/
+body {                                                     /*å› ä¸ºé™¤æ ‡é¢˜æ–‡å­—å¤–ï¼Œæ–‡ç« ä¸­æ–‡å­—çš„â€å¤§å°â€œã€"é¢œè‰²"å’Œâ€œå­—ä½“â€éƒ½ç›¸åŒï¼Œæ‰€æœ‰åœ¨æ­¤ç»Ÿä¸€è®¾ç½®*/
+    background-color: white;                             /*ç™½è‰²èƒŒæ™¯*/
+    color: #404040;                                      /*æ–‡å­—é¢œè‰²*/
+    font-size: 11pt;                                       /*æ–‡å­—å¤§å°*/
+    font-family: Georgia, 'Times New Roman', Times, serif; /*å­—ä½“*/
+    background-image: url(http://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/silverware.jpg);/*é¢å¤–è¦æ±‚ä¸­çš„Background*/
+    background-attachment: fixed;                          /*è®¾ç½®èƒŒæ™¯å›¾ç‰‡ä¸åŠ¨*/
+}                                                          /*<p>å’Œ<ol>çš„æ ·å¼åœ¨æ­¤å¤„éƒ½å·²è®¾ç½®å®Œæˆ*/
+
+a {                                                        /*æ­¤å¤„è®¾ç½®LINKSä¸‹çš„é“¾æ¥*/
+    color: #A4A400;                                      /*<a>çš„é¢œè‰²ç‹¬ç‰¹ï¼Œéœ€è¦å•ç‹¬åˆ—å‡º*/
+    border: 0;                                             /*"é¢å¤–è¦æ±‚"ä¸­çš„<a>çš„å›¾ç‰‡æ— è¾¹æ¡†Borderless image links*/
 }
 
-* { /*ÒòÎª³ı±êÌâÎÄ×ÖÍâ£¬ÎÄÕÂÖĞÎÄ×ÖµÄ¡±´óĞ¡¡°¡¢"ÑÕÉ«"ºÍ¡°×ÖÌå¡±¶¼ÏàÍ¬£¬ËùÓĞÔÚ´ËÍ³Ò»ÉèÖÃ*/
-    color: #404040;                                      /*ÎÄ×ÖÑÕÉ«*/
-    font-size: 11pt;                                       /*ÎÄ×Ö´óĞ¡*/
-    font-family: Georgia, 'Times New Roman', Times, serif; /*×ÖÌå*/
-} /*<p>ºÍ<ol>µÄÑùÊ½ÔÚ´Ë´¦¶¼ÒÑÉèÖÃÍê³É*/
-
-ul{ /*ÎÄÕÂÖĞµÄINGREDIENTS´¦ÉèÖÃ*/
-    list-style-image: url(https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/pie_icon.gif);/*"¶îÍâÒªÇó"ÖĞµÄPie bulletÉèÖÃ*/
+blockquote {                                               /*æ­¤å¤„è®¾ç½®USER COMMENTSä¸‹çš„è¯„è®º*/
+    font-style: italic;                                    /*è®¾ç½®è¯„è®ºæ–‡å­—ä¸ºæ–œä½“*/
+    background: #FFFFC8;                                 /*è®¾ç½®è¯„è®ºæ–‡å­—åç‰¹æ®Šçš„é»„è‰²*/
 }
 
-blockquote {                 /*´Ë´¦ÉèÖÃUSER COMMENTSÏÂµÄÆÀÂÛ*/
-    background: #FFFFC8;   /*ÉèÖÃÆÀÂÛÎÄ×ÖºóÌØÊâµÄ»ÆÉ«*/
-    font-style: italic;      /*ÉèÖÃÆÀÂÛÎÄ×ÖÎªĞ±Ìå*/
+ul{                                                        /*æ–‡ç« ä¸­çš„INGREDIENTSå¤„è®¾ç½®*/
+    list-style-image: url(https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/pie_icon.gif);/*"é¢å¤–è¦æ±‚"ä¸­çš„Pie bulletè®¾ç½®*/
 }
 
-a {                     /*´Ë´¦ÉèÖÃLINKSÏÂµÄÁ´½Ó*/
-    color: #A4A400;   /*<a>µÄÑÕÉ«¶ÀÌØ£¬ĞèÒªµ¥¶ÀÁĞ³ö*/
-    border: 0;          /*"¶îÍâÒªÇó"ÖĞµÄ<a>µÄÍ¼Æ¬ÎŞ±ß¿òBorderless image links*/
-}
 
-body { /*¶îÍâÒªÇóÖĞµÄBackground*/
-    background: url(images/silverware.jpg);
-}
+
+
