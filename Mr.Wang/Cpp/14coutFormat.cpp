@@ -17,6 +17,7 @@ void showIOSflag();
 void precision();
 void scientific();
 void lowercaseToUppercase();
+void coutPut();
 
 int main() {
     fputs("abcdefg", stdout);
@@ -28,6 +29,7 @@ int main() {
     precision();
     scientific();
     lowercaseToUppercase();
+    coutPut();
     return 0;
 }
 
@@ -79,4 +81,12 @@ void lowercaseToUppercase() {
     cout << hex << n << endl;
     cout << setiosflags(ios::uppercase) << hex << n << endl;
     cout << resetiosflags(ios::uppercase) << hex << n << endl;
+}
+void coutPut() {
+    char str[] = "Programming with C++";
+
+    for (int i = sizeof(str) / sizeof(*str); i >= 0; i--)
+        cout.put(*(str + i));
+
+    cout.put(10);
 }
