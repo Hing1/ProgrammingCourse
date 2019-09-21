@@ -1,26 +1,31 @@
 <!DOCTYPE html>
+<!--
+	This file set the structure of the movie_website.
+
+	I have divided the overall section into three parts, definition list, reviews and page.
+-->
 <html lang="en">
 	<head>
 		<title>TMNT - Rancid Tomatoes</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> <!-- 作业网站上提供的html源文件的这行代码并无法通过检测，因此我修改了这行。 -->
 		<link href="https://courses.cs.washington.edu/courses/cse190m/09sp/homework/2/rotten.gif" rel="icon" type="image/x-icon" />
 		<link href="movie.css" type="text/css" rel="stylesheet" />
 	</head>
 
 	<body>
-		<div class="banner">
+		<div class="banner"> <!--这部分是网页的横幅，即最上面的绿色长条-->
 			<img src="http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/2/banner.png" alt="Rancid Tomatoes" />
 		</div>
 
-		<h1>TMNT (2007)</h1>
+		<h1>TMNT (2007)</h1><!--这里是网页的标题-->
 
-		<div class="overall">
-			<div class="definitionList">
+		<div class="overall"><!--这部分是网页的主要内容，它包括了网页中的大框扩住的所有内容。它分为三个部分，分别是左边的评论，右边的说明和下方的页码-->
+			<div class="definitionList"><!--这部分是对电影的说明，位于网页的右边，它包含一张海报和说明性文字-->
 				<div >
 					<img src="http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/2/generaloverview.png" alt="general overview" />
 				</div>
 				
-				<dl>
+				<dl><!--这里是电影说明的文字-->
 					<dt>STARRING</dt>
 					<dd>Mako <br /> Sarah Michelle Gellar</dd>
 
@@ -49,88 +54,88 @@
 					<dd><a href="http://www.tmnt.com/">The Official TMNT Site</a></dd>
 				</dl>
 			</div>
-			<div class="reviews">
-				<div class="reviewsHead">
+			<div class="reviews"><!--这部分是对电影的评论，位于网页的左边，它包含一些评论和评论人的信息-->
+				<div class="reviewsHead"><!--它是评论部分的条幅，显示了总好评率和评论人数-->
 					<img src="http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/2/rottenbig.png" alt="Rotten" />
 					<span id="persent32">32%</span> <span id="total80">(88 reviews total)</span>
 				</div>
 				
-				<div class="reviewsCol">
-					<p class="singleReview">
+				<div class="reviewsCol"><!--这是评论的第一列-->
+					<p class="singleReview"><!--它是评论的内容-->
 						<img src="http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/2/rotten.gif" alt="Rotten" />
 						<q>Ditching the cheeky, self-aware wink that helped to excuse the concept's inherent corniness, the movie attempts to look polished and 'cool,' but the been-there animation can't compete with the then-cutting-edge puppetry of the 1990 live-action movie.</q>
 					</p>
-					<p class="personalInfor">
+					<p class="personalInfor"><!--它是评论人的信息-->
 						<img src="http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/2/critic.gif" alt="Critic" />
 						Peter Debruge <br />
 						Variety
 					</p>
 
-					<p class="singleReview">
+					<p class="singleReview"><!--它是评论的内容-->
 						<img src="http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/2/fresh.gif" alt="Fresh" />
 						<q>TMNT is a fun, action-filled adventure that will satisfy longtime fans and generate a legion of new ones.</q>
 					</p>
-					<p class="personalInfor">
+					<p class="personalInfor"><!--它是评论人的信息-->
 						<img src="http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/2/critic.gif" alt="Critic" />
 						Todd Gilchrist <br />
 						IGN Movies
 					</p>
 
-					<p class="singleReview">
+					<p class="singleReview"><!--它是评论的内容-->
 						<img src="http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/2/rotten.gif" alt="Rotten" />
 						<q>It stinks!</q>
 					</p>
-					<p class="personalInfor">
+					<p class="personalInfor"><!--它是评论人的信息-->
 						<img src="http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/2/critic.gif" alt="Critic" />
 						Jay Sherman (unemployed)
 					</p>
 
-					<p class="singleReview">
+					<p class="singleReview"><!--它是评论的内容-->
 						<img src="http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/2/rotten.gif" alt="Rotten" />
 						<q>The rubber suits are gone and they've been redone with fancy computer technology, but that hasn't stopped them from becoming dull.</q>
 					</p>
-					<p class="personalInfor">
+					<p class="personalInfor"><!--它是评论人的信息-->
 						<img src="http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/2/critic.gif" alt="Critic" />
 						Joshua Tyler <br />
 						CinemaBlend.com
 					</p>
 				</div>
-				<div class="reviewsCol">
-					<p class="singleReview">
+				<div class="reviewsCol"> <!--这里使评论的第二列，它的样式与第一列相同-->
+					<p class="singleReview"><!--它是评论的内容-->
 						<img src="http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/2/rotten.gif" alt="Rotten" />
 						<q>The turtles themselves may look prettier, but are no smarter; torn irreparably from their countercultural roots, our superheroes on the half shell have been firmly co-opted by the industry their creators once sought to spoof.</q>
 					</p>
-					<p class="personalInfor">
+					<p class="personalInfor"><!--它是评论人的信息-->
 						<img src="http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/2/critic.gif" alt="Critic" />
 						Jeannette Catsoulis <br />
 						New York Times
 					</p>
 
-					<p class="singleReview">
+					<p class="singleReview"><!--它是评论的内容-->
 						<img src="http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/2/rotten.gif" alt="Rotten" />
 						<q>Impersonally animated and arbitrarily plotted, the story appears to have been made up as the filmmakers went along.</q>
 					</p>
-					<p class="personalInfor">
+					<p class="personalInfor"><!--它是评论人的信息-->
 						<img src="http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/2/critic.gif" alt="Critic" />
 						Ed Gonzalez <br />
 						Slant Magazine
 					</p>
 
-					<p class="singleReview">
+					<p class="singleReview"><!--它是评论的内容-->
 						<img src="http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/2/fresh.gif" alt="Fresh" />
 						<q>The striking use of image and motion allows each sequence to leave an impression. It's an accomplished restart to this franchise.</q>
 					</p>
-					<p class="personalInfor">
+					<p class="personalInfor"><!--它是评论人的信息-->
 						<img src="http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/2/critic.gif" alt="Critic" />
 						Mark Palermo <br />
 						Coast (Halifax, Nova Scotia)
 					</p>
 
-					<p class="singleReview">
+					<p class="singleReview"><!--它是评论的内容-->
 						<img src="http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/2/rotten.gif" alt="Rotten" />
 						<q>The script feels like it was computer generated. This mechanical presentation lacks the cheesy charm of the three live action films.</q>
 					</p>
-					<p class="personalInfor">
+					<p class="personalInfor"><!--它是评论人的信息-->
 						<img src="http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/2/critic.gif" alt="Critic" />
 						Steve Rhodes <br />
 						Internet Reviews
@@ -138,10 +143,10 @@
 				</div>
 			</div>
 
-			<p class="page">(1-8) of 88</p>
+			<p class="page">(1-8) of 88</p><!--这部分是页码，位于网页的最下方，说明了该电影网站在总体中的位置-->
 
 		</div>
-		<div class="check">
+		<div class="check"><!--这部分是检测，浏览器窗口的右下角，用于检测网页的html和css文件是否规范-->
 			<a href="http://validator.w3.org/check/referer"><img src="http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/2/w3c-xhtml.png" alt="Valid XHTML 1.1" /></a> <br />
 			<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/2/w3c-css.png" alt="Valid CSS!" /></a>
 		</div>
