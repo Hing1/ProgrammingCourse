@@ -1,0 +1,101 @@
+body {
+    background-image: url(https://courses.cs.washington.edu/courses/cse190m/09sp/homework/2/background.png);
+    font-size: 8pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    text-align: center;
+    background-image: url(https://courses.cs.washington.edu/courses/cse190m/09sp/homework/2/bannerbackground.png);
+    background-repeat: repeat-x;
+    height: 50px;
+}
+h1 {
+    text-align: center;
+    font-size: 24pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.overall {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid gray;
+    overflow: hidden;
+    text-align: left;
+}
+
+.reviews {
+    width: 550px;
+    margin-left: 0%;
+}
+.reviewsHead {
+    background-image: url(https://courses.cs.washington.edu/courses/cse190m/09sp/homework/2/rottenbackground.png);
+    background-repeat: repeat-x;
+    height: 83px;
+}
+#persent32 {
+    font: 48pt bold;
+    color: red;
+    vertical-align: top;
+}
+#total80 {
+    font: 8pt;
+    color: white;
+    vertical-align: 100%;
+}
+.reviewsCol {
+    width: 47%;
+    margin-left: 2%;
+    margin-right: 0%;
+    margin-top: 0%;
+    display: inline-block;
+    vertical-align: text-top;
+}
+.singleReview {
+    font-weight: bold;
+    font-size: 8pt;
+    background-color: #E1D697;
+    border:2px solid gray; /* border: 2px thick gray; The instruction on the homework is error*/
+    padding: 8px;
+}
+.reviewsCol img {
+    float: left;
+    padding-right: 5px;
+}
+.personalInfor {
+    padding: 5px;
+    margin-bottom: 3em;
+}
+
+.definitionList {
+    width: 250px;
+    background-color: #A2B964;
+    font-size: 8pt;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    position: relative;
+    left: 0%;
+    padding: 0;
+}
+dl {
+    margin-left: 10px;
+}
+dl dt {
+    padding-top: 1em;
+    font-weight: bold;
+}
+.page {
+    background-color: #A2B964;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    clear: both;
+}
+.check {
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+}
