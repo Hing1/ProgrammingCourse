@@ -1,101 +1,103 @@
+/**
+ * This file is a modified file of file movie.html.
+ * And it set the style of file movie.html.
+ */
 body {
     background-image: url(https://courses.cs.washington.edu/courses/cse190m/09sp/homework/2/background.png);
-    font-size: 8pt;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;
+    font-size: 8pt;                                     /*文字大小*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   /*字体*/
+    margin: 0;                                          /*设置网页的内容填充整个窗口，使其旁边没有空白*/
     padding: 0;
 }
 
 .banner {
-    text-align: center;
+    text-align: center;                                 /*使条幅中的文字居中*/
     background-image: url(https://courses.cs.washington.edu/courses/cse190m/09sp/homework/2/bannerbackground.png);
-    background-repeat: repeat-x;
-    height: 50px;
+    background-repeat: repeat-x;                        /*使条幅中的背景重复，从而填充整个网页上方*/
+    height: 50px;                                       /*设置条幅的上下高度*/
 }
-h1 {
-    text-align: center;
-    font-size: 24pt;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+h1 {                                                    /*设置网页标题样式*/
+    text-align: center;                                 /*标题文字居中*/
+    font-size: 24pt;                                    /*标题文字大小*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   /*标题文字字体*/
 }
 
-.overall {
-    width: 800px;
-    margin-left: auto;
+.overall {                                              /*设置网页的主体内容*/
+    width: 800px;                                       /*主体的总宽度*/
+    margin-left: auto;                                  /*设置主体居中*/
     margin-right: auto;
-    border: 4px solid gray;
-    overflow: hidden;
-    text-align: left;
+    border: 4px solid gray;                           /*设置大方框的样式*/
+    overflow: hidden;                                   /*设置，使大方框确保可以包围主体的所有内容*/
+    text-align: left;                                   /*设置主体中文字居左*/
 }
 
 .reviews {
-    width: 550px;
-    margin-left: 0%;
+    width: 550px;                                       /*设置评论区域的总宽度*/
+    margin-left: 0%;                                    /*使评论区紧靠左边框*/
 }
 .reviewsHead {
     background-image: url(https://courses.cs.washington.edu/courses/cse190m/09sp/homework/2/rottenbackground.png);
-    background-repeat: repeat-x;
-    height: 83px;
+    background-repeat: repeat-x;                        /*评论区背景图片重复*/
+    height: 83px;                                       /*评论区条幅上下高度*/
 }
 #persent32 {
-    font: 48pt bold;
-    color: red;
-    vertical-align: top;
+    font: 48pt bold;                                    /*评论条幅中32%的文字大小*/
+    color: red;                                       /*评论条幅中32%的文字颜色*/
+    vertical-align: top;                                /*评论条幅中32%的上下位置*/
 }
 #total80 {
-    font: 8pt;
-    color: white;
-    vertical-align: 100%;
+    font: 8pt;                                          /*评论条幅中80人数的文字大小*/
+    color: white;                                     /*评论条幅中80人数的文字颜色*/
+    vertical-align: 100%;                               /*评论条幅中80人数的上下高度*/
 }
 .reviewsCol {
-    width: 47%;
-    margin-left: 2%;
-    margin-right: 0%;
-    margin-top: 0%;
-    display: inline-block;
-    vertical-align: text-top;
+    width: 47%;                                         /*设置评论区一列的宽度*/
+    margin-left: 2%;                                    /*设置评论区一列左边的空白宽度*/
+    display: inline-block;                              /*设置评论列的样式，使评论区可以显示两列*/
+    vertical-align: text-top;                           /*设置使第一条评论紧靠评论条幅*/
 }
 .singleReview {
-    font-weight: bold;
-    font-size: 8pt;
-    background-color: #E1D697;
+    font-weight: bold;                                  /*设置评论文字的样式*/
+    font-size: 8pt;                                     /*设置评论文字的大小*/
+    background-color: #E1D697;                        /*设置评论文字的背景颜色*/
     border:2px solid gray; /* border: 2px thick gray; The instruction on the homework is error*/
-    padding: 8px;
+    padding: 8px;                                       /*设置评论文字距小边框的距离*/
 }
 .reviewsCol img {
-    float: left;
-    padding-right: 5px;
+    float: left;                                        /*设置评论区小图片居左*/
+    padding-right: 5px;                                 /*设置评论区小图片与文字间的距离*/
 }
 .personalInfor {
-    padding: 5px;
-    margin-bottom: 3em;
+    padding: 5px;                                       /*设置评论人信息与边框的距离*/
+    margin-bottom: 3em;                                 /*设置相邻两条评论的距离*/
 }
 
-.definitionList {
-    width: 250px;
-    background-color: #A2B964;
-    font-size: 8pt;
-    font-family: Arial, Helvetica, sans-serif;
-    float: right;
-    position: relative;
-    left: 0%;
-    padding: 0;
-}
-dl {
-    margin-left: 10px;
+.definitionList {                                       /*设置电影说明区域*/
+    width: 250px;                                       /*设置电影说明区域的宽度*/
+    background-color: #A2B964;                        /*设置电影说明区域的背景颜色*/
+    font-size: 8pt;                                     /*设置电影说明区域的文字大小*/
+    font-family: Arial, Helvetica, sans-serif;          /*设置电影说明区域的文字字体*/
+    float: right;                                       /*使电影说明区域浮动在大框右边*/
+    position: relative;                                 /*设置电影说明区域的位置类型*/
+    left: 0%;                                           /*使电影说明区域紧靠右边*/
+    padding: 0;                                         /*设置电影说明区域的填满框*/
 }
 dl dt {
-    padding-top: 1em;
-    font-weight: bold;
+    margin-left: 10px;                                  /*设置电影说明区域文字左右位置*/
+    padding-top: 1em;                                   /*设置电影说明区域文字上下位置*/
+    font-weight: bold;                                  /*设置电影说明区域文字样式*/
 }
+
 .page {
-    background-color: #A2B964;
-    margin: 0;
-    padding: 5px;
-    text-align: center;
-    clear: both;
+    background-color: #A2B964;                        /*设置页码区域的背景颜色*/
+    margin: 0;                                          /*使页码区紧靠边框*/
+    padding: 5px;                                       /*设置页码区域的位置*/
+    text-align: center;                                 /*设置页码区域的文字居中*/
+    clear: both;                                        /*设置页码区域的位置不受浮动块的影响*/
 }
+
 .check {
-    position: fixed;
-    bottom: 0%;
-    right: 0%;
+    position: fixed;                                    /*设置检测图标的位置样式*/
+    bottom: 0%;                                         /*设置检测图标紧靠窗口下方*/
+    right: 0%;                                          /*设置检测图标紧靠窗口右边*/
 }
