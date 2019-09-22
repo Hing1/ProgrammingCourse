@@ -1,0 +1,24 @@
+CC := g++
+FLAGS := -std=c++11 -w
+INC_DIR := include
+SRC_DIR := src
+BUILD_DIR := build
+BIN_DIR := bin
+INCLUDE := -I./$(INC_DIR)
+
+$(BIN_DIR)/main : $(BUILD_DIR)/support1.o build/main.o
+	@mkdir -p $(BIN_DIR)
+	$(CC) $(FLAGS) $(INCLUDE) $(BUILD_DIR)/support1.o build/main.o -o $@
+
+$(BUILD_DIR)/%.o : $(SRC_DIR)/%.cpp
+	@mkdir -p $(BUILD_DIR)
+	$(CC) $(FLAGS) -I./$(INC_DIR) -c -o $@ $(SRC_DIR)/support1.cpp
+
+$(BUILD_DIR)/main.o : $(SRC_DIR)/main.cpp
+	@mkdir -p $(BUILD_DIR)
+	$(CC) $(FLAGS) -I./$(INC_DIR) -c -o $@ $(SRC_DIR)/main.cpp
+
+clean:
+	 @rm -rf build
+	 @rm -rf bin
+
