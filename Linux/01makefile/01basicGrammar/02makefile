@@ -1,0 +1,9 @@
+main : main.o support1.o
+	g++ main.o support1.o -o main
+
+support1.o : support1.hpp support1.cpp
+	g++ -c support1.cpp
+
+main.o : main.cpp
+	g++ -c main.cpp
+
