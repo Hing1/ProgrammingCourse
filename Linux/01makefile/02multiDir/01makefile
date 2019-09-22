@@ -1,0 +1,19 @@
+CC := g++
+FLAGS := -std=c++11 -w
+
+bin/main : build/support1.o build/main.o
+	@mkdir -p bin
+	$(CC) $(FLAGS) -I./include build/support1.o build/main.o -o $@
+
+build/%.o : src/%.cpp
+	@mkdir -p build 
+	$(CC) $(FLAGS) -I./include -c -o $@ src/support1.cpp
+
+build/main.o : src/main.cpp
+	@mkdir -p build
+	$(CC) $(FLAGS) -I./include -c -o $@ src/main.cpp
+
+clean:
+	 @rm -rf build
+	 @rm -rf bin
+
