@@ -7,7 +7,7 @@ public:
             mask = (1 << i);
             if(mask & n)
                 bits++;
-            return bits;
         }
+        return bits;
     }
 };
