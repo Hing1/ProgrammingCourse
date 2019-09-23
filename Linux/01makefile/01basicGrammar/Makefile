@@ -1,3 +1,6 @@
+# This is the annotation.
+# In makefile, using # to create annotation.
+
 CC := g++
 FLAGS := -std=c++11 -w
 
