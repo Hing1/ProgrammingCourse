@@ -4,20 +4,26 @@
 
 设置本用户，输入命令
 
-```
+```vimrc
 vim ~/.vimrc
 ```
 
 设置全局用户，输入命令
 
-```
+```vimrc
 vim /etc/[vim/]vimrc
 ```
 
  打开文件后，输入内容
 
-```
-set number                                                                      syntax on                                                                        set cindent                                                                      set autoindent                                                                  set shiftwidth=4                                                               set tabstop=4                                                                set softtabstop=4
+```vimrc
+set number
+syntax on  
+set cindent  
+set autoindent  
+set shiftwidth=4  
+set tabstop=4
+set softtabstop=4
 ```
 
-  保存即可
+保存即可
