@@ -1,0 +1,165 @@
+/**
+该文件是修饰index.html的样式表文件
+展示图片是在Firefox浏览器上的截图
+*/
+html, body {
+    font-weight: bold;                  /* 设置文字为粗体 */
+    font-family:sans-serif;             /* 设置文字字体 */
+    width: 100%;                        /* 确保页面覆盖整个窗口 */
+    height: 100%;                       /* 确保页面覆盖整个窗口 */
+    margin: 0;                          /* 确保页面与窗口边缘没有空隙 */
+    padding: 0;                         /* 确保页面与窗口边缘没有空隙 */
+}
+#at-plus-container {
+    width: 400px;                       /* 设置容器宽度 */
+    height: 400px;                      /* 设置容器高度*/
+    margin: 0 auto;                     /* 设置容器水平居中*/
+    position: relative;                 /*使容器垂直位置固定*/
+    top: 50%;                           /*设置容器垂直位置*/
+    display: flex;                      /*设置样式从而可以控制子元素*/
+    align-items: center;                /*设置子元素垂直居中*/
+    justify-content: center;            /*设置子元素水平居中*/
+}
+#button:hover {
+    width: 150px;                       /*设置鼠标划过时，按钮的大小*/
+    height: 150px;                      /*确保鼠标可以点到出来的选项*/
+}
+.button {
+    border-radius: 50%;                 /*设置边框的圆角*/
+    width: 0px;                         /*设置鼠标未划过时，对象消失*/
+    height: 0px;                        /*设置鼠标未划过时，对象消失*/
+    opacity: 0;                         /*设置鼠标未划过时，对象消失*/
+    position: absolute;                 /*设置位置方便居中*/
+    left:50%;                           /*设置位置水平居中*/
+    top:50%;                            /*设置位置垂直居中*/
+    transform: translate(-50%, -50%);   /*实现水平垂直居中*/
+    transition: opacity 1s, background 1s,width 1s,height 1s, transform 1s;/*设置鼠标离开恢复时变化快慢*/
+}
+#button:hover .button {                 /*设置鼠标划过时的四个小菜单*/
+    position: absolute;                 /*设置位置方便居中*/
+    width: 32px;                        /*设置鼠标未划过时的宽度*/
+    height: 32px;                       /*设置鼠标未划过时的高度*/
+    background-color: grey;           /*设置背景颜色*/
+    opacity: 1;                         /*设置鼠标划过时的透明度*/
+    transition: opacity 1s, background 1s,width 1s,height 1s, transform 1s;/*设置鼠标划过时变化快慢*/
+}
+.mask {
+    background: url("assets/images/nomask.png") no-repeat 50% 50%,#707070;/*设置第一个小图标的背景图片*/
+    background-size: 17px;              /*设置第一个小图标的背景图片大小*/
+    transform: translate3d(-230%, -196%, 0);/*设置第一个小图标的背景图片位置*/
+}
+.history {
+    background: url("assets/images/history.png") no-repeat 50% 50%,#707070;/*设置第二个小图标的背景图片*/
+    background-size: 17px;              /*设置第二个小图标的背景图片大小*/
+    transform: translate3d(-260%, -85%, 0);/*设置第二个小图标的背景图片位置*/
+}
+.message {
+    background: url("assets/images/message.png") no-repeat 50% 50%,#707070;/*设置第三个小图标的背景图片*/
+    background-size: 17px;              /*设置第三个小图标的背景图片大小*/
+    transform: translate3d(-215%, 35%, 0);/*设置第三个小图标的背景图片位置*/
+}
+.setting {
+    background: url("assets/images/setting.png") no-repeat 50% 50%,#707070;/*设置第四个小图标的背景图片*/
+    background-size: 17px;              /*设置第四个小图标的背景图片大小*/
+    transform: translate3d(-100%, 100%, 0);/*设置第四个小图标的背景图片位置*/
+}
+.sign {
+    background: url("assets/images/signin.png") no-repeat 50% 50%,#707070;/*设置第五个小图标的背景图片*/
+    background-size: 17px;              /*设置第五个小图标的背景图片大小*/
+    transform: translate3d(63%, 64%, 0);/*设置第五个小图标的背景图片位置*/
+}
+.info {
+    border-radius: 50%;                 /*设置大图标的圆角*/
+    background-color: white;          /*设置背景颜色*/
+    width: 0px;                         /*设置鼠标未划过时，对象消失*/
+    height: 0px;                        /*设置鼠标未划过时，对象消失*/
+    opacity: 0;                         /*设置鼠标未划过时，对象消失*/
+}
+#button:hover .info { 
+    border-radius: 50%;                 /*设置大图标的圆角*/
+    position: absolute;                 /*设置位置方便居中*/
+    left:50%;                           /*设置位置水平居中*/
+    top:50%;                            /*设置位置垂直居中*/
+    width: 130px;                       /*设置大图标的宽度*/
+    height: 130px;                      /*设置大图标的高度*/
+    background-color: grey;           /*设置背景颜色*/
+    opacity: 1;                         /*设置大图标的透明度*/
+    transition: opacity 3s, background 1s,width 1s,height 1s, transform 0.5s;/*设置鼠标划过时变化快慢*/
+    transform: translate3d(-51%, -137%, 0);/*设置大图标的位置*/
+}
+.icon {                                 /*设置鼠标未划过时的图形 "@" */
+    position: absolute;                 /*设置位置方便居中*/
+    left:50%;                           /*设置位置水平居中*/
+    top:50%;                            /*设置位置垂直居中*/
+    transform: translate(-50%, -50%);   /*实现水平垂直居中*/
+    width: 35px;                        /*设置鼠标未划过时的宽度*/
+    height: 35px;                       /*设置鼠标未划过时的高度*/
+    border-radius: 50%;                 /*设置鼠标未划过时圆边角*/
+    transition: background 2s,width 2s,height 2s; /*设置鼠标离开时，缓慢恢复的时间*/
+    background: url("assets/images/atplus_white.png") no-repeat 50% 50%,grey;/*设置鼠标未划过时的图形 "@" 的背景图片*/
+    background-size: 30px;              /*设置鼠标未划过时的图形 "@" 的位置*/
+}
+#button:hover .icon {                   /*设置鼠标划过时的图形 "@" */
+    position: absolute;                 /*设置位置方便居中*/
+    left:50%;                           /*设置位置水平居中*/
+    top:50%;                            /*设置位置垂直居中*/
+    transform: translate(-50%, -50%);   /*实现水平垂直居中*/
+    width: 50px;                        /*设置鼠标划过时的宽度*/
+    height: 50px;                       /*设置鼠标划过时的高度*/
+    border-radius: 50%;                 /*设置鼠标划过时圆边角*/
+    transition: background 1s,width 1s,height 1s; /*设置鼠标划过时，变化的快慢*/
+    background: url("assets/images/atplus_green.png") no-repeat 50% 50%,rgba(48, 63, 159, 1);/*设置鼠标划过时的图形 "@" 的背景图片*/
+    background-size: 30px;              /*设置鼠标未划过时的图形 "@" 的位置*/
+}
+.message span {
+    display: none;                      /*设置鼠标离开时，他消失*/
+}
+#button:hover .message span {
+    color: white;                     /*设置消息上的小红点的文字颜色*/
+    float: right;                       /*设置消息上的小红点的位置*/
+    width: 20px;                        /*设置消息上的小红点的宽度*/
+    height: 20px;                       /*设置消息上的小红点的高度*/
+    background: red;                  /*设置消息上的小红点的颜色*/
+    border-radius: 50%;                 /*设置消息上的小红点的圆角*/
+    display: block;                     /*设置消息上的小红点的形式*/
+    text-align: center;                 /*设置消息上的小红点的文字垂直位置*/
+    position: relative;                 /*设置消息上的小红点的位置*/
+    right: -9px;                        /*设置消息上的小红点的位置*/
+    bottom: 4px;                        /*设置消息上的小红点的位置*/
+}
+
+li {
+    list-style-type: none;              /*设置列表前的小点消失*/
+}
+.mine {
+    color: rgb(17, 230, 162);         /*设置大图标最后一行两个数字的颜色*/
+}
+.page {
+    color :white;                     /*设置大图标前面两行两个数字的颜色*/
+}
+.user {
+    transform: translate3d(10%, -50%, 0);/*设置大图标中第一个图标的位置*/
+}
+.user img {
+    transform: translate3d(-50%, 20%, 0);/*设置大图标第一个图标图片的位置*/
+}
+.comment {
+    font-size: 30px;                    /*设置评论数字的字体大小*/
+}
+.comment img {
+    transform: translate3d(-50%, 10%, 0);/*设置大图标第二个图标图片的位置*/
+}
+.posted {
+    font-size: 18px;                     /*设置大图标中第三个图标的字体大小*/
+    transform: translate3d(-20%, 20%, 0);/*设置大图标中第三个图标的位置*/
+}
+.posted img {
+    transform: translate3d(-10%, 20%, 0);/*设置大图标第三个图标图片的位置*/
+}
+.like {
+    font-size: 18px;                     /*设置大图标中第四个图标的字体大小*/
+    transform: translate3d(35%, -80%, 0);/*设置大图标中第四个图标的位置*/
+}
+.like img{
+    transform: translate3d(-20%, 20%, 0);/*设置大图标第四个图标图片的位置*/
+}
