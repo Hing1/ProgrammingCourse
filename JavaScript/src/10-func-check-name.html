@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html;charset=utf-8">
+	<title>date</title>
+	<script language="javascript">
+		function checkName() {
+			var name=form1.userName.value;
+			if (name=="") {
+				alert("The user name cannot be null\n");
+			} else {
+				alert("The user name can be registe\n");
+			}
+		}
+	</script>
+</head>
+<body>
+	<form name = "form1" method="post" action="">
+		Please input the name:
+		<input type="text" name="userName" id="userName" size="30" />
+		<br/>
+		<input type="button" value="Check" onclick="checkName()" />
+		
+	</form>
+
+</body>
+</html>
