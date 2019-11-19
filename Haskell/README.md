@@ -16,6 +16,16 @@
 
 ## Higher-order Function
 
+|||
+|-------------------|---|
+|lambda             |[lambda](./src/49-lambda.hs)|
+|map                |[map](./src/50-map.hs)|
+|filter             |[filter](./src/51-filter.hs)|
+|take while         |[take while](./src/52-take-while.hs)|
+|drop while         |[drop while](./src/53-drop-while.hs)|
+|function compostion|[compostion](./src/54-func-compost.hs)|
+|foldr              |[foldr](./src/55-foldr.hs)|
+
 ## Algebraic Data Type
 
 ## IO Programming
