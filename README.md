@@ -13,5 +13,5 @@ The process of learning programming
 |          |[linux](./PracTrain/Linux/)||
 |          |[learn src](./PracTrain/learn-src)||
 |          |[vim](./PracTrain/Config/)|The vim config file|
-|Web-school|[web 2.0](./Web/school/)||
-|Web-51CTO |[javascript](./Web/javascript/)||
+|Web       |[web 2.0](./Web/school/)||
+|          |[javascript](./Web/javascript/)||
