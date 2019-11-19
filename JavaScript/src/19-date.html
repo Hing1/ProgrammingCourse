@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html;charset=utf-8">
+	<title>date</title>
+	<script language="javascript">
+		function sysTime() {
+			var now=new Date();
+
+			var year=now.getFullYear();
+			var month=now.getMonth() + 1;
+			var date=now.getDate();
+			var hour=now.getHours();
+			var min=now.getMinutes();
+			var sec=now.getSeconds();
+
+			var time=year + "-" + month + "-" + date + "/" + hour+":"+min+":"+sec;
+			document.getElementById('clock').innerHTML="The time is " + time;
+		}
+		window.onload=function() {
+			// Loop calling function sysTime(), every 1000ms
+			window.setInterval("sysTime()",1000);
+		}
+	</script>
+</head>
+<body>
+	<div id="clock"></div>
+</body>
+</html>

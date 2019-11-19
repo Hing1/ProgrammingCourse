@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html;charset=utf-8">
+	<title></title>
+	<script language="javascript">
+		function checkTel() {
+			var str=form1.tel.value;
+			var objExp=/^((\d{3}-)?\d{8})$|^((\d{4}-)?\d{7,8})$/;
+			if (objExp.test(str)==true)
+				alert("The number is legal");
+			else
+				alert("The number is illegal");
+		}
+	</script>
+</head>
+<body>
+	<form name="form1" method="post" action="">
+		Please input the phone number: <input type="text" name="tel" id="tel">
+		<input type="button" name="check" value="check" onclick="checkTel()">
+	</form>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html;charset=utf-8">
+	<title></title>
+	<script language="javascript">
+		function getBirthday() {
+			var str=form1.IDcard.value;
+			var objExp=/(\d{6})(\d{4})(\d{2})(\d{2})(\d{4})/;
+			var arr=objExp.exec(str);
+			if (arr != null) {
+				alert("The ID is "+arr[0]);
+				alert("The birthday is: "+arr[2]+"-"+arr[3]+"-"+arr[4]);
+			} else {
+				alert("The ID card number is illegal");
+			}
+		}
+	</script>
+</head>
+<body>
+	<form name="form1" method="post" action="">
+		Please input the ID card number: 
+		<input type="text" name="IDcard" id="IDcard">
+		<br/>
+		<input type="button" value="get birthday" onclick="getBirthday()">
+	</form>
+</body>
+</html>

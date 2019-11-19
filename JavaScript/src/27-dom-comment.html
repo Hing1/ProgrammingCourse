@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html;charset=utf-8">
+	<script type="text/javascript">
+		function addElement() {
+			var person=document.createTextNode(form1.person.value);
+			var content=document.createTextNode(form1.content.value);
+
+			var td_person=document.createElement("td");
+			var td_content=document.createElement("td");
+			var tr=document.createElement("tr");
+			var tbody=document.createElement("tbody");
+
+			td_person.appendChild(person);
+			td_content.appendChild(content);
+
+			tr.appendChild(td_person);
+			tr.appendChild(td_content);
+
+			tbody.appendChild(tr);
+
+			var mytable=document.getElementById("mytable");
+			mytable.appendChild(tbody);
+
+			form1.person.value="";
+			form1.content.value="";
+		}
+		function deleteFirstE() {
+			var mytable=document.getElementById("mytable");
+			if (mytable.rows.length>1) {
+				mytable.deleteRow(1);
+			}
+		}
+		function deleteLastE() {
+			var mytable=document.getElementById("mytable");
+			if (mytable.rows.length>1) {
+				mytable.deleteRow(mytable.rows.length-1);
+			}
+		}
+		function deleteE() {
+			var index=myForm.deleteIndex.value;
+			alert(index);
+			var mytable=document.getElementById("mytable");
+			if (index == 1)
+				alert("TTT");
+			if (mytable.rows.length>1 && 1 <= index && index <= mytable.rows.length-1) {
+				alert(index);
+				mytable.deleteRow(index);
+			}
+		}
+	</script>
+</head>
+<body>
+	<table width="500" border="1" align="center" id="mytable">
+		<tr>
+			<td width="20%" align="center">Reviewers</td>
+			<td width="20%" align="center">Comments</td>
+		</tr>
+	</table>
+	<br/><br/><hr/>
+	<div align="center">
+		<form name="form1" method="post" action="" id="myForm">
+			Reviewer: <input type="text" name="person" id="person" size="50" />
+			<br/>
+			Comment: <textarea name="content" cols="36" rows="3" id="content"></textarea>
+			<br/>
+			<input type="button" name="send" value="send" onclick="addElement()" />
+			<input type="button" name="reset" value="reset"/>
+			<input type="button" name="deleteFirst" value="deleteFirst" onclick="deleteFirstE()" />
+			<input type="button" name="deleteLast" value="deleteLast" onclick="deleteLastE()" />
+			<br/>
+			<input type="text" name="deleteIndex" id="deleteIndex" size="10" />
+			<input type="button" name="delete" value="delete" onclick="deleteE()" />
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html id="ht">
+<head>
+	<meta content="text/html;charset=utf-8">
+	<script type="text/javascript">
+		function getElement(node) {
+			if (node.nodeType==1) { // check whether the node is a element object
+				alert(node.nodeName);
+				var childrens=node.childNodes;
+				for (var m=node.firstChild; m!=null; m=m.nextSibling) {
+					getElement(m);
+				}
+			}
+		}
+	</script>
+</head>
+<body onload="getElement(ht)">
+	Hello, nice to meet you!
+	<a href="#"/> <br/>
+	<a href="https://www.baidu.com">Baidu</a>,8  <br/>
+</body>
+</html>
