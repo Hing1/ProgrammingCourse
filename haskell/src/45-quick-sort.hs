@@ -1,4 +1,4 @@
-module Solution where
+module QuickSort where
 
 quickSort :: Ord a => [a] -> [a]
 quickSort [] = []
