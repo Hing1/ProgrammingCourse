@@ -1,4 +1,4 @@
-# ProgrammingCourse
+# Program Course
 
 The process of learning programming
 
