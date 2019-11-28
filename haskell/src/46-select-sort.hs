@@ -1,4 +1,4 @@
-module Solution where
+module SelectSort where
 
 selectionSort ::  Ord a => [a] -> [a]
 selectionSort [] = []
