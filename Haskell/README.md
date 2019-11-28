@@ -28,6 +28,10 @@
 
 ## Algebraic Data Type
 
+|||
+|:---:|:---|
+|[play hand](./src/61-paly-many-hands.hs)|Rock Scissor Paper Game.|
+
 ## IO Programming
 
 |||
