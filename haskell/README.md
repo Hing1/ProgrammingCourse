@@ -8,12 +8,12 @@
 |QuickCheck           |
 |Recursion            |
 |Overload             |
-|List Program         |select sort|
-|                     |quick sort||
-|                     |insert sort||
-|                     |insert sort||
-|                     |merge sort||
-|                     |merge sort||
+|List Program         |[select sort](./src/46-select-sort.hs)|The selection sort.|
+|                     |[quick sort](./src/45-quick-sort.hs)|The quick sort.|
+|                     |[merge sort](./src/56-merge-sort.hs)|The merge sort.|
+|                     |[merge sort](./src/62-merge-sort.hs)|Specify the merge sort of the order relationship.|
+|                     |[insert sort](./src/63-insert-sort.hs)|The insertion sort.|
+|                     |[insert sort](./src/64-insert-sort.hs)|Specify the insertion sort of the order relationship.|
 |Higher-order Function|[lambda](./src/49-lambda.hs)||
 |                     |[map](./src/50-map.hs)||
 |                     |[filter](./src/51-filter.hs)||
