@@ -35,3 +35,8 @@
 |Hello "name"|[input name]()|
 |Get a Int numb|[double numb]|
 
+## practice
+
+|||
+|:---:|:---|
+|[fre](./src/60-freque.hs)|Get the frequency of each word in the string and sort them.|
