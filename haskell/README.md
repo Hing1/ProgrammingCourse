@@ -3,14 +3,18 @@
 ||||
 |---------------------|:---:|:---|
 |Introduction         |
-|                     |[prime](./src/72-prime.hs)                         |Filter out all prime number|
-|                     |[sum](./src/73-sum.hs)                             |The sum from 1 to n|
+|                     |[prime](./src/72-prime.hs)                          |Filter out all prime number|
+|                     |[sum](./src/73-sum.hs)                              |The sum from 1 to n|
 |Function             |
-|                     |[square](./src/74-square.hs)                       |Get the square of a number|
-|                     |[to positive](./src/75-to-positive.hs)             |Map integer set to positive integer set|
-|                     |[distance](./src/76-distance.hs)                   |Distance from a point to origin|
-|                     |[bmi](./src/77-bmi.hs)                             |The BMI of height and weight|
+|                     |[square](./src/74-square.hs)                        |Get the square of a number|
+|                     |[to positive](./src/75-to-positive.hs)              |Map integer set to positive integer set|
+|                     |[distance](./src/76-distance.hs)                    |Distance from a point to origin|
+|                     |[bmi](./src/77-bmi.hs)                              |The BMI of height and weight|
 |Data Type            |
+|                     |[double](./src/78-double.hs)                        |Get the double of a number|
+|                     |[max](./src/79-max.hs)                              |The max of two number|
+|                     |[judge bmi](./src/80-judge-bmi.hs)                  |Judge the weight based on BMI|
+|                     |[fraction](./src/81-fraction.hs)                    |The operation of the fraction|
 |QuickCheck           |
 |Recursion            |
 |Overload             |
