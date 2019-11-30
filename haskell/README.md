@@ -1,7 +1,7 @@
 # Hasekll
 
 ||||
-|---------------------|:---:|:---|
+|:-------------------:|:---:|:---|
 |Introduction         |
 |                     |[prime](./src/72-prime.hs)                          |Filter out all prime number|
 |                     |[sum](./src/73-sum.hs)                              |The sum from 1 to n|
@@ -16,6 +16,8 @@
 |                     |[judge bmi](./src/80-judge-bmi.hs)                  |Judge the weight based on BMI|
 |                     |[fraction](./src/81-fraction.hs)                    |The operation of the fraction|
 |QuickCheck           |
+|                     |[check max](./src/82-max-check.hs)                  |Quick check the max function|
+|                     |[check sqrt](./src/83-sqrt-check.hs)                |Quick check the sqrt function|
 |Recursion            |
 |Overload             |
 |List Program         |[select sort](./src/46-select-sort.hs)              |The selection sort|
