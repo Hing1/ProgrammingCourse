@@ -4,7 +4,7 @@
 |:-------------------:|:---:|:---|
 |Introduction         |[prime](./src/72-prime.hs)                          |Filter out all prime number|
 |                     |[sum](./src/73-sum.hs)                              |The sum from 1 to n|
-|
+|                     |
 |Function             |[square](./src/74-square.hs)                        |Get the square of a number|
 |                     |[to positive](./src/75-to-positive.hs)              |Map integer set to positive integer set|
 |                     |[distance](./src/76-distance.hs)                    |Distance from a point to origin|
