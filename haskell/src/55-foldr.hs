@@ -1,3 +1,5 @@
+module Foldr where
+
 {-
 sum :: [Int] -> [Int]
 sum [] = 0

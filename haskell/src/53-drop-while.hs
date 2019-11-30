@@ -1,3 +1,5 @@
+module DropWhile where
+
 spaces :: String
 spaces = " ,.;!"
 

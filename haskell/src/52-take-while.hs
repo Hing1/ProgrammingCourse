@@ -1,3 +1,5 @@
+module TakeWhile where
+
 isAlpha :: Char -> Bool
 isAlpha x = elem x "QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm"
 

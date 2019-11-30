@@ -1,3 +1,5 @@
+module FuncCompost where
+
 takeWord :: String -> String
 -- takeWord = getWords (dropSpaces xs)
 takeWord = getWords . dropSpaces

@@ -1,3 +1,5 @@
+module Lambda where
+
 f :: Int -> Int
 f x = 2 * x
 ff :: Int -> Int
