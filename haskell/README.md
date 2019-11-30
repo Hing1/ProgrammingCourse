@@ -23,13 +23,19 @@
 |                     |[fibonacci](./src/85-fibonacci.hs)                  |Get the nth number of fibonacci sequence|
 |                     |[exponential](./src/86-exponential.hs)              |Get the n times for x|
 |Overload             |
-|List Program         |[select sort](./src/46-select-sort.hs)              |The selection sort|
+|                     |[add](./src/87-add.hs)                              |Overload add function|
+|                     |[max](./src/88-max.hs)                              |Overload max function|
+|                     |[first](./src/89-fst.hs)                            |polymorphism fst function|
+|                     |[head](./src/90-head.hs)                            |polymorphism head function|
+|List Program         |
+|                     |[select sort](./src/46-select-sort.hs)              |The selection sort|
 |                     |[quick sort](./src/45-quick-sort.hs)                |The quick sort|
 |                     |[merge sort](./src/56-merge-sort.hs)                |The merge sort|
 |                     |[merge sort](./src/62-merge-sort.hs)                |Specify the merge sort of the order relationship|
 |                     |[insert sort](./src/63-insert-sort.hs)              |The insertion sort|
 |                     |[insert sort](./src/64-insert-sort.hs)              |Specify the insertion sort of the order relationship|
-|Higher-order Function|[lambda](./src/49-lambda.hs)||
+|Higher-order Function|
+|                     |[lambda](./src/49-lambda.hs)||
 |                     |[map](./src/50-map.hs)||
 |                     |[filter](./src/51-filter.hs)||
 |                     |[take while](./src/52-take-while.hs)||
