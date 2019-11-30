@@ -8,11 +8,11 @@
 |Function             |[square](./src/74-square.hs)                        |Get the square of a number|
 |                     |[to positive](./src/75-to-positive.hs)              |Map integer set to positive integer set|
 |                     |[distance](./src/76-distance.hs)                    |Distance from a point to origin|
-|                     |[bmi](./src/77-bmi.hs)                              |The BMI of height and weight|
+|                     |[BMI](./src/77-bmi.hs)                              |The BMI of height and weight|
 ||
 |Data Type            |[double](./src/78-double.hs)                        |Get the double of a number|
 |                     |[max](./src/79-max.hs)                              |The max of two number|
-|                     |[judge bmi](./src/80-judge-bmi.hs)                  |Judge the weight based on BMI|
+|                     |[judge BMI](./src/80-judge-bmi.hs)                  |Judge the weight based on BMI|
 |                     |[fraction](./src/81-fraction.hs)                    |The operation of the fraction|
 ||
 |QuickCheck           |[check max](./src/82-max-check.hs)                  |Quick check the max function|
@@ -62,8 +62,11 @@
 |                     |[max func](./src/65-max-func.hs)                    |Get the max of {f(i), i = 0->n}|
 |                     |[sum func](./src/66-sum-func.hs)                    |Get the sum of {f(i), i = 0->n}|
 ||
-||
-|Algebraic Data Type  |
+|Algebraic Data Type  |[people](./src/107-people.hs)                       |Define people data type|
+|                     |[day](./src/108-day.hs)                             |Define day of a week data type|
+|                     |[move](./src/109-move.hs)                           |Define rock scissor paper data type|
+|                     |[shape](./src/110-shape.hs)                         |Define circle rectangle data type|
+|                     |[exceprion](./src/111-expression.hs)                |Define exception data type|
 |                     |[play hand](./src/61-paly-many-hands.hs)            |Rock Scissor Paper Game|
 |IO Programming       |
 |                     |input name||
