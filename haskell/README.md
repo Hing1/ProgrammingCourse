@@ -19,6 +19,9 @@
 |                     |[check max](./src/82-max-check.hs)                  |Quick check the max function|
 |                     |[check sqrt](./src/83-sqrt-check.hs)                |Quick check the sqrt function|
 |Recursion            |
+|                     |[factorial](./src/84-factorial.hs)                  |The factorial of a number|
+|                     |[fibonacci](./src/85-fibonacci.hs)                  |Get the nth number of fibonacci sequence|
+|                     |[exponential](./src/86-exponential.hs)              |Get the n times for x|
 |Overload             |
 |List Program         |[select sort](./src/46-select-sort.hs)              |The selection sort|
 |                     |[quick sort](./src/45-quick-sort.hs)                |The quick sort|
