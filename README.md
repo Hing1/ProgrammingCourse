@@ -2,16 +2,16 @@
 
 The process of learning programming
 
-||||
-|:--------:|---|----|
-|DSAA      |[dsaa](./DSAA/)|Data structures and algorithms|
-|Git       |[git](./git/)||
-|Haskell   |[haskell](./haskell/README.md)||
-|Java      |[java](./java/)||
-|PCCC      |[PCCC](./PCCC/)||
-|PracTrain |[google style](./PT-prim/google-style/README.md)||
-|          |[linux](./PT-prim/linux.pdf)||
-|          |[learn cpp](./PT-prim/cpp/)||
-|          |[vim](./PT-prim/config/)|The vim config file|
-|Web       |[web 2.0](./web/school/)||
-|          |[javascript](./web/javascript/)||
+|||
+|:--------:|---|
+|[DSAA](./DSAA/)|Data structures and algorithms|
+|[git](./git/)||
+|[haskell](./haskell/)|This is the most detailed folder in this depository|
+|[java](./java/)||
+|[PCCC](./PCCC/)                       ||
+|[google style](./PT-prim/google-style/)||
+|[linux](./PT-prim/linux.pdf)||
+|[learn cpp](./PT-prim/cpp/)||
+|[vim](./PT-prim/config/)|The vim config file|
+|[web 2.0](./web/school/)||
+|[javascript](./web/javascript/)||
