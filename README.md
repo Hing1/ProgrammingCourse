@@ -10,8 +10,7 @@ The process of learning programming
 |[java](./java/)||
 |[PCCC](./PCCC/)                       ||
 |[google style](./PT-prim/google-style/)||
-|[linux](./PT-prim/linux.pdf)||
-|[learn cpp](./PT-prim/cpp/)||
+|[PT prim](./PT-prim/)||
 |[vim](./PT-prim/config/)|The vim config file|
 |[web 2.0](./web/school/)||
 |[javascript](./web/javascript/)||
