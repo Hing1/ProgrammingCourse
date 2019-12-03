@@ -68,6 +68,7 @@
 |                     |[shape](./src/110-shape.hs)                         |Define circle rectangle data type|
 |                     |[exceprion](./src/111-expression.hs)                |Define exception data type|
 |                     |[play hand](./src/61-paly-many-hands.hs)            |Rock Scissor Paper Game|
+|                     |[prop](./src/112-prop.hs)                           |Define proposition data type|
 |IO Programming       |
 |                     |input name||
 |                     |double numb|
