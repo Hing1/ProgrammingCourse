@@ -78,4 +78,6 @@
 |                     |[permutation](./src/69-permute.hs)                  |Get the full permutation|
 |                     |[rock scissor paper](./src/70-rock-scissor-paper.hs)|Rock Scissor Paper Game|
 |                     |[get all word](./src/71-get-all-word.hs)            |Get all the words in a text|
-|                     |[freque](./src/60-freque.hs)                        |Get the frequency of each word in the string and sort them|
+
+* [freque](./src/60-freque.hs)
+: Get the frequency of each word in the string and sort them.
