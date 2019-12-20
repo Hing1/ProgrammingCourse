@@ -1,16 +1,18 @@
-# Program Course
+# Course
 
-The process of learning programming
+03
 
-|||
-|:--------:|---|
-|[DSAA](./DSAA/)|Data structures and algorithms|
-|[git](./git/)||
-|[haskell](./haskell/)|This is the most detailed folder in this depository|
-|[java](./java/)||
-|[PCCC](./PCCC/)                       ||
-|[google style](./PT-prim/google-style/)||
-|[PT prim](./PT-prim/)||
-|[vim](./PT-prim/config/)|The vim config file|
-|[web 2.0](./web/school/)||
-|[javascript](./web/javascript/)||
+* [haskell](./haskell/) : Learn haskell with Mr. Qiao.
+* [DSAA](./DSAA/) : Data structures and algorithms.
+* [PT prim](./src/PT-prim/) : Practical training.
+    * [Google C++ Style](./PT-prim/google-style)
+    * [vim](./PT-prim/vim/)
+* [web 2.0](./web/school/)
+    * [JavaScript](./web/javascript/)
+* [PCCC](./PCCC/) : Principle of computer composition.
+
+Other
+
+* [Git](./git/)
+* [Java](./java/)
+
