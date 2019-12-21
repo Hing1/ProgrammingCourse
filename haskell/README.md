@@ -20,7 +20,7 @@ Data Type
 * [judge BMI](./src/80-judge-bmi.hs) : Judge the weight based on BMI.
 * [fraction](./src/81-fraction.hs) : The operation of the fraction.
 
-QuickCheck
+Quick Check
 
 * [check max](./src/82-max-check.hs) : Quick check the max function.
 * [check sqrt](./src/83-sqrt-check.hs) : Quick check the sqrt function.
@@ -35,7 +35,7 @@ Overload
 
 * [add](./src/87-add.hs) : Overload add function.
 * [max](./src/88-max.hs) : Overload max function.
-* [first](./src/89-fst.hs) : polymorphism fst function.
+* [first](./src/89-fst.hs) : polymorphism first function.
 * [head](./src/90-head.hs) : polymorphism head function.
 
 List Program
@@ -46,7 +46,7 @@ List Program
 * [sum](./src/94-sum.hs) : The sum of all elem in a list.
 * [head](./src/95-head.hs) : The head elem of a list.
 * [tail](./src/96-tail.hs) : The tail list of a list.
-* [th elem](./src/97-th-elem.hs) : The ith elem of a list.
+* [th elem](./src/97-th-elem.hs) : The i th elem of a list.
 * [double elem](./src/98-double-elem.hs) : The module [ e \. x <- xs].
 * [square elem](./src/99-square-sum.hs) : The sum from n ^ 2 to 1 ^ 2.
 * [odd list](./src/100-odd-list.hs) : The module [ e \. x <- xs, test].
@@ -55,7 +55,7 @@ List Program
 * [prime list](./src/103-prime-list.hs) : Get a list of prime number.
 * [Sieve of Eratosthenes](./src/72-prime.hs) : Get prime list with Sieve of Eratosthenes.
 * [Newton-Raphson](./src/104-Newton-Raphson.hs) : Find the square root with Newton-Raphson method.
-* [shopping ticket](./src/105-shopping-ticket.hs): Print the shoppint ticket.
+* [shopping ticket](./src/105-shopping-ticket.hs): Print the shopping ticket.
 * [picture](./src/106-picture.hs): Print the picture of letters.
 
 Sort
@@ -72,9 +72,9 @@ Higher-order Function
 * [lambda](./src/49-lambda.hs) : The lambda expression.
 * [map](./src/50-map.hs) : Realize the map function.
 * [filter](./src/51-filter.hs) : Realize the filter function.
-* [take while](./src/52-take-while.hs) : Realize the takeWhile function.
-* [drop while](./src/53-drop-while.hs) : Realize the dropWhile function.
-* [compostion](./src/54-func-compost.hs) : The f . g () function compostion module.
+* [take while](./src/52-take-while.hs) : Realize the take While function.
+* [drop while](./src/53-drop-while.hs) : Realize the drop While function.
+* [compostion](./src/54-func-compost.hs) : The f . g () function composition module.
 * [foldr](./src/55-foldr.hs) : Realize the foldr function.
 * [max func](./src/65-max-func.hs) : Get the max of {f(i), i = 0->n}.
 * [sum func](./src/66-sum-func.hs) : Get the sum of {f(i), i = 0->n}.
@@ -91,8 +91,17 @@ Algebraic Data Type
 
 IO Programming
 
-* input name..
-* double numb.
+* [hello name](./src/117-hello-name.hs) : Input a name, out put "hello" + name.
+* [double number](./src/118-double-number.hs) : Input a number, out put the double of it.
+* [add numbers](./src/119-add-number.hs) : Input two number, calculate the sum of them.
+* [repeat add numbers](./src/120-repeat-add-number.hs) : Input two number, calculate the sum. If the sum is false, try again.
+* [guess number](./src/121-guess-number.hs) : Random generate a number, guess it.
+* [repeat guess number](./src/122-repeat-guess-number.hs) : Random generate a number, guess it. If wrong, try again.
+* [get n numbers](./src/123-get-n-numbers.hs) : Input n numbers, output the list of them.
+* [get number until negative](./src/124-get-until-negative.hs) : Input numbers until the number is negative, output the list of them.
+* [get the sum of positive](./src/125-get-the-sum-positive.hs) : Input numbers until the number is negative, output the sum of them.
+* [probability of 0](./src/126-probability-of-0.hs) : Generate a list of 0 and 1, calculate the probability of 0.
+* [probability of at least one 0](./src/127-probability-of-atleast-one-0.hs) : Generate a list of (x, y), where x and y is 0 or 1, calculate the probability of at least one element is 0.
 
 practice: 
 
@@ -102,5 +111,4 @@ practice:
 * [rock scissor paper](./src/70-rock-scissor-paper.hs).Rock Scissor Paper Game.
 * [get all word](./src/71-get-all-word.hs) : Get all the words in a text.
 
-* [freque](./src/60-freque.hs)
-: Get the frequency of each word in the string and sort them.
+* [freque](./src/60-freque.hs) : Get the frequency of each word in the string and sort them.
