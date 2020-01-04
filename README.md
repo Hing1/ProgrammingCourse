@@ -2,7 +2,6 @@
 
 03
 
-* [haskell](./haskell/) : Learn haskell with Mr. Qiao.
 * [DSAA](./DSAA/) : Data structures and algorithms.
 * [PT prim](./src/PT-prim/) : Practical training.
     * [Google C++ Style](./PT-prim/google-style)
