@@ -8,7 +8,8 @@
     * [vim](./PT-prim/vim/)
 * [web 2.0](./web/school/)
     * [JavaScript](./web/javascript/)
-* [PCCC](./PCCC/) : Principle of computer composition.
+* [PCCC](./PCCC/) 
+: Principle of computer composition.
 
 Other
 
